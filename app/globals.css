@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fefbf3;
+  --foreground: #78350f;
+  --amber-50: #fffbeb;
+  --amber-100: #fef3c7;
+  --amber-200: #fde68a;
+  --amber-300: #fcd34d;
+  --amber-400: #fbbf24;
+  --amber-500: #f59e0b;
+  --amber-600: #d97706;
+  --amber-700: #b45309;
+  --amber-800: #92400e;
+  --amber-900: #78350f;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-serif), "Times New Roman", serif;
+}
+
+/* Leaflet custom popup styling */
+.leaflet-popup-content-wrapper {
+  background: linear-gradient(to bottom, #fffbeb, #fef3c7);
+  border: 2px solid #92400e;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.leaflet-popup-tip {
+  background: #fffbeb;
+  border: 2px solid #92400e;
+  border-top: none;
+  border-right: none;
+}
+
+.leaflet-popup-close-button {
+  color: #78350f;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.leaflet-popup-close-button:hover {
+  color: #92400e;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fef3c7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d97706;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b45309;
+}
+
+/* Marker hover effects */
+.marker-hovered {
+  animation: markerPulse 1.5s ease-in-out infinite;
+}
+
+.marker-active {
+  z-index: 500 !important;
+}
+
+@keyframes markerPulse {
+  0%, 100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.2);
+  }
+}
+
+/* Ensure hovered markers appear on top */
+.leaflet-marker-icon.marker-hovered {
+  z-index: 1000 !important;
+}
