@@ -32,11 +32,13 @@ export default function Header() {
                   A self-guided tour through New York City locations with an H.G. Wells connection. 
                   Follow in the footsteps of the legendary author's visits to America.
                   Take in the sights of the city while learning about Wells' life and works.
+                  Enjoy the interactive map, audio files, and exact transcripts. For a deeper dive,
+                  please take a closer look at the links in the Works Cited.
                 </p>
                 <p className="font-serif text-amber-900/90 leading-relaxed">
-                  This tour traces Wells' actual visits to NYC, from the academic institutions of Morningside 
-                  Heights to the landmarks of Lower Manhattan. Each location offers a new tidbit of history and
-                  insight into Wells as a person.
+                  This tour traces Wells' actual visits to NYC, from the Columbia University academic ecosystem of 
+                  Morningside Heights to the landmarks of Lower Manhattan. Each location offers a new tidbit of 
+                  history and insight into Wells as a traveller.
                 </p>
               </div>
             </div>
