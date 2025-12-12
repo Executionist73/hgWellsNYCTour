@@ -29,14 +29,14 @@ export default function Header() {
               <div className="flex-1">
                 <h2 className="font-serif text-2xl font-bold text-amber-900 mb-4">About This Tour</h2>
                 <p className="font-serif text-amber-900/90 leading-relaxed mb-4">
-                  A self-guided walking/subway tour of New York City locations with an H.G. Wells connection. 
-                  Follow in the footsteps of the legendary author's 1906 visit to America, and explore how his 
-                  ideas about education, progress, and civilization intersected with the rapidly growing metropolis.
+                  A self-guided tour through New York City locations with an H.G. Wells connection. 
+                  Follow in the footsteps of the legendary author's visits to America.
+                  Take in the sights of the city while learning about Wells' life and works.
                 </p>
                 <p className="font-serif text-amber-900/90 leading-relaxed">
-                  This tour traces Wells' actual journey through NYC, from the academic institutions of Morningside 
-                  Heights to the iconic landmarks of Lower Manhattan. Each location features excerpts from Wells' 
-                  writings and historical context about his experiences in the city.
+                  This tour traces Wells' actual visits to NYC, from the academic institutions of Morningside 
+                  Heights to the landmarks of Lower Manhattan. Each location offers a new tidbit of history and
+                  insight into Wells as a person.
                 </p>
               </div>
             </div>
