@@ -15,7 +15,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Wellsian NYC Tour",
-  description: "A self-guided walking tour through New York City locations with an H.G. Wells connection. Follow in the footsteps of the legendary author's 1906 visit to America.",
+  description: "A self-guided tour through New York City locations with an H.G. Wells connection. Follow in the footsteps of the legendary author's visits to America.",
 };
 
 export default function RootLayout({
