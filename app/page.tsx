@@ -132,10 +132,10 @@ export default function Home() {
             <section className="space-y-8 mb-12">
               <div className="mb-8 text-center">
                 <h2 className="font-serif text-3xl font-bold text-amber-900 sm:text-4xl">
-                  Audio Narratives
+                  Narratives
                 </h2>
                 <p className="mt-2 font-serif text-lg italic text-amber-800/80">
-                  Listen to the tales of each location
+                  Listen to and read the tales of each location
                 </p>
               </div>
               
